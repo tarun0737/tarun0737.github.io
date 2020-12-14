@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body{
+    background-image: url(pin2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.dropbtn {
+margin: 0;
+  position: absolute;
+  top: 50%;
+  left : 42%;
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  
+  position: center;
+  display: inline-block;
+  align-self: center; 
+}
+
+.dropdown-content {
+  top:58%;
+  left:42%;
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.head{
+  text-align: center;
+  padding :200px;
+  color:white;
+
+}
+.dropdown-content a:hover {background-color: green;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: red;}
+</style>
+</head>
+<body>
+<div class ="head">
+<h1>BitCoin Prediction Model</h1>
+<br>
+<h3 style="color:white">Here Select No of days below to Predict Future Bitcoin price till that month</h3>
+<p ></p></div>
+<h2>
+<div class="dropdown">
+  <button class="dropbtn">Select Number of Days</button>
+  <div class="dropdown-content">
+    <a href="thirty.html">30</a>
+    <a href="sixty.html">60</a>
+    <a href="ninty.html">90</a>
+    <a href="one20.html">120</a>
+    <a href="one50.html">150</a>
+  </div>
+</div>
+
+</body>
+</html>
